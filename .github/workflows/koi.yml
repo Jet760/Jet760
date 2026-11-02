@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: Jet70/Jet70/git-koi@v1
+      - uses: yalongwastaken/git-koi@v1
         with:
           body: white
           output-dir: koi
